@@ -1,0 +1,49 @@
+body 
+{
+    background-image: url("img/fondohbn.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black; 
+
+
+}
+
+#instruc{
+
+    position: absolute;
+    bottom: 30%;
+    left: 26%;
+    width: 53%;
+    height: 40%;
+    border: solid;
+    border-color: black;
+    background-color: antiquewhite;
+}
+#instrucciones
+{
+    font-size: 300%;
+    position: absolute;
+    bottom: 80%;
+    left: 20%;
+    text-decoration: none;
+    color: black;
+}
+#a
+{
+    position: absolute;
+    bottom: 35%;
+    left: 44%;
+    font-size: 300%;
+    text-decoration: none;
+    color: black;
+}
+#sonido
+{
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    font-size: 300%;
+    text-decoration: none;
+}

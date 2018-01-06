@@ -1,0 +1,37 @@
+body 
+{
+    background-image: url("img/fondohbn.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black; 
+
+
+}
+
+#instruc{
+    color: red;
+    position: absolute;
+    bottom: 18%;
+    left: 26%;
+    font-size: 384%;
+    width: 53%;
+    height: 51%;
+    border: solid;
+    border-color: black;
+    background-color: antiquewhite;
+}
+p{
+    color: black;
+    font-size: 60%;
+}
+
+#a
+{
+    position: absolute;
+    bottom: 30%;
+    left: 57%;
+    font-size: 482%;
+    text-decoration: none;
+}
