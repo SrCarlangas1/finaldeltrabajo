@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego de naves</title>
+	<link rel='stylesheet' media='screen and (min-width: 720px)' href='css/horizontal.css'>
+	<link rel='stylesheet' media='screen and (max-width: 720px)' href='css/vertical.css'>
+	<script src="js/js.js"></script>
+</head>
+<body>
+
+<div>
+	<div> 
+		<img id="fuel1" alt="fuel" src="img/fuel.png" />
+		<b><span id="fuel">0</span></b>
+	</div>
+	<div >
+		<img id="altura1" alt="m" src="img/m.png" />
+		<b><span id="altura">0</span></b>
+	</div>
+	<div>
+		<img id="velocidad1" alt="km" src="img/km.png" />
+		<b><span id="velocidad">100</span></b>
+	</div>
+</div>
+
+<div id="nave" >
+	<img class="navess" alt="nave" id="navefuego" src="img/navee.png" />
+</div>	 
+
+<div id="marcadores">
+	<img id="opciones" class="marcadoress" alt="option" src="img/option.png" />
+	<img class="marcadoress2" id="pausa" alt="pause" src="img/pause.png" />
+</div>
+
+<div id="perder">
+	<h2>¡¡Has perdido!!</h2>
+	No puedes pasar de 10km/h de velocidad<br><br>
+	Animo la proxima sera<br><br>
+	<a href="paginaweb.html"><button id="reiniciarperder"><h3>Reiniciar</h3></button></a>
+	<br><br>
+</div> 
+
+<div id="ganar">
+	<br>
+	<br>
+	<br>
+	<h2>¡¡Has ganado!!</h2><br>
+	<a href="paginaweb.html"><button id="reiniciarganar"><h3>Reiniciar</h3></button></a>
+</div>
+
+<div id=menu>
+	<b><h1 id=jugar>Jugar</h1></b><br>
+	<b><h1><a href="opciones.html" id="instruciones">Instruciones</a></h1></b><br>
+</div>
+
+</body>
+</html>
+
+
+
+
