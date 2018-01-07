@@ -1,1 +1,149 @@
-body{background-image: url("img/fondohbn.jpg");background-repeat: no-repeat;background-position: center center;background-attachment: fixed;background-size: cover;background-color: black;}#nave{position: fixed; width: 33%; height: 100%; top: 3%; left: 35%;}#botones{position: fixed; top: 28%; left: 3%; width: 13%;}#marcadores{object-fit: scale-down; position: fixed; top: 34%; left: 85%; width: 14%; height: 20%;}.navess{position: absolute; left: 30%; bottom: 75%; width: 100px; height: 20%;}.botoness{width: 125px; margin-bottom: 80%;}#perder{display: none; position: absolute; bottom: 40%; right: 30%; color: chartreuse; background-color: black; height: 34%; width: 34%; border-bottom-left-radius: 59%; border-bottom-right-radius: 59%; border-top-left-radius: 30%; border-top-right-radius: 30%; text-align: center;}#ganar{display: none; position: absolute; bottom: 40%; right: 30%; color: chartreuse; background-color: black; height: 34%; width: 34%; border-bottom-left-radius: 59%; border-bottom-right-radius: 59%; border-top-left-radius: 30%; border-top-right-radius: 30%; text-align: center;}#velocidad1{position: absolute; top: 49.5%; left: 2.2%; height: 11%;}#altura1{position: absolute; top: 37.5%; left: 2.2%; height: 11%;}#fuel1{position: absolute; top: 25.5%; left: 2.2%; height: 11%;}/* Los numeros de los marcadores */#velocidad{position: absolute; top: 52.5%; left: 4.5%; font-size: 135%;}#altura{color: black; position: absolute; top: 40.5%; left: 4.2%; font-size: 135%;}#fuel{color: black; position: absolute; top: 28.5%; left: 5.5%; font-size: 135%;}#menu{display: none; position: absolute; bottom: 40%; right: 30%; color: chartreuse; background-color: black; height: 34%; width: 34%; border-bottom-left-radius: 59%; border-bottom-right-radius: 59%; border-top-left-radius: 30%; border-top-right-radius: 30%; text-align: center;}a{text-decoration: none; color: chartreuse;}
+body 
+{
+	background-image: url("img/fondohbn.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black; 
+
+}
+#nave
+{
+    position: fixed;
+    width: 33%;
+    height: 100%;
+    top: 3%;
+    left: 35%;
+}
+#botones
+{
+    position: fixed;
+    top: 28%;
+    left: 3%;
+    width: 13%;
+}
+#marcadores
+{
+    object-fit:  scale-down;
+    position: fixed;
+    top: 34%;
+    left: 85%;
+    width: 14%;
+    height: 20%;
+}
+.navess
+{
+    position: absolute;
+    left: 30%;
+    bottom: 75%;
+    width: 100px;
+    height: 20%;
+}
+.botoness
+{
+    width: 125px;
+    margin-bottom: 80%;
+}
+
+#perder{
+    display: none;
+    position: absolute;
+    bottom: 40%;
+    right: 30%;
+    color: chartreuse;
+    background-color: black;
+    height: 34%;
+    width: 34%;
+    border-bottom-left-radius: 59%;
+    border-bottom-right-radius: 59%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    text-align: center;
+
+}
+
+
+#ganar{
+    display: none;
+    position: absolute;
+    bottom: 40%;
+    right: 30%;
+    color: chartreuse;
+    background-color: black;
+    height: 34%;
+    width: 34%;
+    border-bottom-left-radius: 59%;
+    border-bottom-right-radius: 59%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    text-align: center;
+}
+
+#velocidad1
+{
+    position: absolute;
+    top: 49.5%;
+    left: 2.2%;
+    height: 11%;
+}
+#altura1
+{
+    position: absolute;
+    top: 37.5%;
+    left: 2.2%;
+    height: 11%;
+}
+#fuel1
+{
+    position: absolute;
+    top: 25.5%;
+    left: 2.2%;
+    height: 11%;
+}
+/* Los numeros de los marcadores */
+#velocidad
+{
+    position: absolute;
+    top: 52.5%;
+    left: 4.5%;
+    font-size: 135%;
+}
+#altura
+{
+    color: black;
+    position: absolute;
+    top: 40.5%;
+    left: 4.2%;
+    font-size: 135%;
+}
+#fuel
+{
+    color: black;
+    position: absolute;
+    top: 28.5%;
+    left: 5.5%;
+    font-size: 135%;
+}
+
+#menu{
+    display: none;
+    position: absolute;
+    bottom: 40%;
+    right: 30%;
+    color: chartreuse;
+    background-color: black;
+    height: 34%;
+    width: 34%;
+    border-bottom-left-radius: 59%;
+    border-bottom-right-radius: 59%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: chartreuse;
+}
